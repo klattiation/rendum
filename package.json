@@ -4,7 +4,6 @@
   "description": "Utility functions to generate random values.",
   "main": "src/index.js",
   "scripts": {
-    "build": "WEBPACK_ENV=build webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
