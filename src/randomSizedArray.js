@@ -1,4 +1,4 @@
-import randomInt from "./randomInt"
+const randomInt = require("./randomInt")
 
-export default range => creator =>
+module.exports = range => creator =>
   Array.from({ length: randomInt(range) }, (...args) => creator(args))

@@ -1,6 +1,6 @@
-const defaultRange = { min = 0, max = 100 }
+const defaultRange = Object.freeze({ min: 0, max: 100 })
 
-export default range => {
+module.exports = range => {
   const { min, max } = { ...defaultRange, ...range }
   return Math.random() * (max - min) + min
 }

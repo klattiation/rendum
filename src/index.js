@@ -1,8 +1,19 @@
-export { default as randomBool } from "./randomBool"
-export { default as randomEntries } from "./randomEntries"
-export { default as randomEntry } from "./randomEntry"
-export { default as randomIndex } from "./randomIndex"
-export { default as randomInt } from "./randomInt"
-export { default as randomNumber } from "./randomNumber"
-export { default as randomSizedArray } from "./randomSizedArray"
-export { default as shuffleArray } from "./shuffleArray"
+const randomBool = require("./randomBool")
+const randomEntries = require("./randomEntries")
+const randomEntry = require("./randomEntry")
+const randomIndex = require("./randomIndex")
+const randomInt = require("./randomInt")
+const randomNumber = require("./randomNumber")
+const randomSizedArray = require("./randomSizedArray")
+const shuffleArray = require("./shuffleArray")
+
+module.exports = {
+  randomBool,
+  randomEntries,
+  randomEntry,
+  randomIndex,
+  randomInt,
+  randomNumber,
+  randomSizedArray,
+  shuffleArray,
+}

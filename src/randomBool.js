@@ -1,1 +1,1 @@
-export default () => Math.random() > 0.5
+module.exports = () => Math.random() > 0.5

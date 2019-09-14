@@ -1,5 +1,5 @@
-export const isEmpty = arr => !Array.isArray(arr) || !arr.length
-
-export const isNotEmpty = arr => Array.isArray(arr) && arr.length
-
-export const isNil = v => v === undefined || v === null
+module.exports = {
+  isEmpty: arr => !Array.isArray(arr) || !arr.length,
+  isNotEmpty: arr => Array.isArray(arr) && arr.length,
+  isNil: v => v === undefined || v === null,
+}

@@ -1,8 +1,8 @@
-import { isEmpty, isNil } from "./_utils"
-import shuffleArray from "./shuffleArray"
-import randomInt from "./randomInt"
+const { isEmpty, isNil } = require("./_utils")
+const shuffleArray = require("./shuffleArray")
+const randomInt = require("./randomInt")
 
-export default (arr, n) => {
+module.exports = (arr, n) => {
   if (isEmpty(arr)) {
     return
   }

@@ -1,6 +1,6 @@
-import randomIndex from "./randomIndex"
+const randomIndex = require("./randomIndex")
 
-export default arr => {
+module.exports = arr => {
   const idx = randomIndex(arr)
   return idx >= 0 ? arr[idx] : undefined
 }

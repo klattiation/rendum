@@ -1,3 +1,3 @@
-import randomNumber from "./randomNumber"
+const randomNumber = require("./randomNumber")
 
-export default range => Math.round(randomNumber(range))
+module.exports = range => Math.round(randomNumber(range))

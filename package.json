@@ -2,8 +2,9 @@
   "name": "rendum",
   "version": "0.1.0",
   "description": "Utility functions to generate random values.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,5 +15,13 @@
     "lightweight"
   ],
   "author": "Sascha Klatt",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klattiation/rendum/issues"
+  },
+  "homepage": "https://github.com/klattiation/rendum",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:klattiation/rendum.git"
+  }
 }
