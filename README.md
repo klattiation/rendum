@@ -3,5 +3,5 @@
 Utility functions to generate random values.
 
 ```
-npm i rendum
+npm i klattiation/rendum
 ```
