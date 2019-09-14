@@ -1,0 +1,18 @@
+{
+  "name": "rendum",
+  "version": "0.1.0",
+  "description": "Utility functions to generate random values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "helper",
+    "utils",
+    "utilities",
+    "lightweight"
+  ],
+  "author": "Sascha Klatt",
+  "license": "MIT"
+}
